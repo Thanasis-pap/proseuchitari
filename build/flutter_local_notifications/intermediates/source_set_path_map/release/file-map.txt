@@ -1,0 +1,13 @@
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-1.0.0-beta04-0 /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-1 /home/thanasis/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-core-1.6.0-2 /home/thanasis/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-java-1.0.0-beta04-3 /home/thanasis/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-4 /home/thanasis/.gradle/caches/transforms-3/c7b5e40c8322718297956b3bec8a46d6/transformed/media-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-5 /home/thanasis/.pub-cache/hosted/pub.dev/flutter_local_notifications-16.1.0/android/src/main/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-6 /home/thanasis/.pub-cache/hosted/pub.dev/flutter_local_notifications-16.1.0/android/src/release/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 /home/thanasis/AndroidStudioProjects/proseuchitari/build/flutter_local_notifications/generated/res/pngs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 /home/thanasis/AndroidStudioProjects/proseuchitari/build/flutter_local_notifications/generated/res/resValues/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 /home/thanasis/AndroidStudioProjects/proseuchitari/build/flutter_local_notifications/generated/res/rs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 /home/thanasis/AndroidStudioProjects/proseuchitari/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 /home/thanasis/AndroidStudioProjects/proseuchitari/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 /home/thanasis/AndroidStudioProjects/proseuchitari/build/flutter_local_notifications/intermediates/merged_res/release

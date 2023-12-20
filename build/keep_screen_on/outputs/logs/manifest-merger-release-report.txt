@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml:1:1-3:12
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml:1:1-3:12
+	package
+		ADDED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml:2:3-39
+		INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+		ADDED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml
+		INJECTED from /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/AndroidManifest.xml

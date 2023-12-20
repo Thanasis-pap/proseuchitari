@@ -1,0 +1,1 @@
+ /home/thanasis/AndroidStudioProjects/proseuchitari/.dart_tool/flutter_build/fa34d9da953bbdf33e0785c7fc20fb6f/native_assets.yaml: 

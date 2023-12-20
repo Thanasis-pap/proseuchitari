@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "dev.craftsoft.keepscreenon.keep_screen_on-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "dev.craftsoft.keepscreenon.keep_screen_on-core-1.6.0-2:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "dev.craftsoft.keepscreenon.keep_screen_on-merged_res-10:/drawable/notification_bg.xml",
+        "source": "dev.craftsoft.keepscreenon.keep_screen_on-core-1.6.0-2:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "dev.craftsoft.keepscreenon.keep_screen_on-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "dev.craftsoft.keepscreenon.keep_screen_on-core-1.6.0-2:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "dev.craftsoft.keepscreenon.keep_screen_on-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "dev.craftsoft.keepscreenon.keep_screen_on-core-1.6.0-2:/drawable/notification_tile_bg.xml"
+    }
+]

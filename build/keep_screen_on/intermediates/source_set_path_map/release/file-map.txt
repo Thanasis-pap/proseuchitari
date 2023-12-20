@@ -1,0 +1,12 @@
+dev.craftsoft.keepscreenon.keep_screen_on-jetified-window-1.0.0-beta04-0 /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+dev.craftsoft.keepscreenon.keep_screen_on-jetified-annotation-experimental-1.1.0-1 /home/thanasis/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+dev.craftsoft.keepscreenon.keep_screen_on-core-1.6.0-2 /home/thanasis/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+dev.craftsoft.keepscreenon.keep_screen_on-jetified-window-java-1.0.0-beta04-3 /home/thanasis/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+dev.craftsoft.keepscreenon.keep_screen_on-main-4 /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/main/res
+dev.craftsoft.keepscreenon.keep_screen_on-release-5 /home/thanasis/.pub-cache/hosted/pub.dev/keep_screen_on-3.0.0/android/src/release/res
+dev.craftsoft.keepscreenon.keep_screen_on-pngs-6 /home/thanasis/AndroidStudioProjects/proseuchitari/build/keep_screen_on/generated/res/pngs/release
+dev.craftsoft.keepscreenon.keep_screen_on-resValues-7 /home/thanasis/AndroidStudioProjects/proseuchitari/build/keep_screen_on/generated/res/resValues/release
+dev.craftsoft.keepscreenon.keep_screen_on-rs-8 /home/thanasis/AndroidStudioProjects/proseuchitari/build/keep_screen_on/generated/res/rs/release
+dev.craftsoft.keepscreenon.keep_screen_on-mergeReleaseResources-9 /home/thanasis/AndroidStudioProjects/proseuchitari/build/keep_screen_on/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.craftsoft.keepscreenon.keep_screen_on-mergeReleaseResources-10 /home/thanasis/AndroidStudioProjects/proseuchitari/build/keep_screen_on/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.craftsoft.keepscreenon.keep_screen_on-merged_res-11 /home/thanasis/AndroidStudioProjects/proseuchitari/build/keep_screen_on/intermediates/merged_res/release
