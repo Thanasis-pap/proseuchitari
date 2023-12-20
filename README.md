@@ -4,6 +4,9 @@
 
 The Greek Orthodox Prayer Book app provides a vast collection of prayers, hymns, and other liturgical texts in Greek , making it an invaluable resource for Orthodox Christians of all ages. Whether you are a seasoned practitioner or just starting to explore your faith, this app can enrich your spiritual journey.
 
+| ![main_light](https://github.com/Thanasis-pap/proseuchitari/assets/23704220/ac968fbe-d7bb-4373-ba2a-fcca62011de1) | ![main_dark](https://github.com/Thanasis-pap/proseuchitari/assets/23704220/18bc1abb-7acd-404f-9ca5-0c6c4d183da4) | ![calendar_light](https://github.com/Thanasis-pap/proseuchitari/assets/23704220/aacdbef1-1eb7-438b-9471-7924bcb958c7) | ![calendar_dark](https://github.com/Thanasis-pap/proseuchitari/assets/23704220/f6df5769-5ce3-4372-978d-752116b690da) |
+| ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+
 ### Requirements
 
 - Android 9.0 (Pie) or higher
