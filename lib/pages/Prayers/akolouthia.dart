@@ -27,22 +27,22 @@ class _Akolouthia extends State<Akolouthia> {
         centerTitle: true,
       ),
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Scrollbar(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(30.0),
-            primary: false,
-            child: Column(children: <Widget>[
-              const SizedBox(height: 10.0),
-              HtmlWidget(
-                AkolouthiesList.akolouthies[widget.akolouthiaNumber][1],
-                textStyle: TextStyle(fontSize: Global.fontSize),
-              ),
-              const SizedBox(height: 60.0),
-            ]),
+          // Center is a layout widget. It takes a single child and positions it
+          // in the middle of the parent.
+          child: Scrollbar(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(30.0),
+              primary: false,
+              child: Column(children: <Widget>[
+                const SizedBox(height: 10.0),
+                HtmlWidget(
+                  AkolouthiesList.akolouthies[widget.akolouthiaNumber][1],
+                  textStyle: TextStyle(fontSize: Global.fontSize),
+                ),
+                const SizedBox(height: 60.0),
+              ]),
+            ),
           ),
-        ),
       ),
 
       floatingActionButton: FloatingActionButton(

@@ -142,22 +142,13 @@ class _Proseuches extends State<Proseuches> {
                     mainAxisSpacing: 16,
                     crossAxisCount: 2,
                     childAspectRatio: (30 / 20),
-                    children:
-                        _getList()
-                    ),
+                    children: _getList()),
               ),
             ],
           ),
         ),
       ][currentPageIndex],
-      /*floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.of(context).pushNamedAndRemoveUntil(
-              '/home', (Route<dynamic> route) => false);
-        },
-        tooltip: 'Increment',
-        child: const Icon(Icons.home),
-      ),*/ // This trailing comma makes auto-formatting nicer for build methods.
+      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

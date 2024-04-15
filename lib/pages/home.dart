@@ -65,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     _resetSelectedDate();
     getDouble();
+    setBool(Global.screen);
   }
 
   void _resetSelectedDate() {
@@ -88,7 +89,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title, style: TextStyle(fontSize: Global.fontSize+10)),
+        title: Text(widget.title,
+            style: TextStyle(fontSize: Global.fontSize + 10)),
         centerTitle: false,
         actions: [
           Padding(
@@ -154,8 +156,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 sliver: SliverGrid.count(
                   crossAxisSpacing: 20,
                   mainAxisSpacing: 20,
-                  crossAxisCount: 2,
-                  childAspectRatio: (30 / 20),
+                  crossAxisCount: 1,
+                  childAspectRatio: (30 / 10),
                   children: <Widget>[
                     ElevatedButton(
                       onPressed: () {
@@ -170,13 +172,37 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: AutoSizeText(
-                        'Βασικές Προσευχές',
-                        style: TextStyle(fontSize: Global.fontSize),
-                        textAlign: TextAlign.center,
-                        minFontSize: Global.fontSize - 8,
-                        wrapWords: false,
-                        maxLines: 2,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            width: 85,
+                            height: 85,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    20) // Adjust the radius as needed
+                                ),
+                            child: Image.asset(
+                              'asset/images/basic_prayers.png',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const Spacer(),
+                          Expanded(
+                            flex: 10,
+                            child: AutoSizeText(
+                              'Βασικές Προσευχές',
+                              style: TextStyle(fontSize: Global.fontSize),
+                              textAlign: TextAlign.center,
+                              minFontSize: Global.fontSize - 8,
+                              wrapWords: false,
+                              maxLines: 2,
+                            ),
+                          ),
+                          const Spacer(),
+                        ],
                       ),
                     ),
                     ElevatedButton(
@@ -192,14 +218,38 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: AutoSizeText(
-                        'Προσευχές Αγίων & Γερόντων',
-                        style: TextStyle(
-                          fontSize: Global.fontSize,
-                        ),
-                        textAlign: TextAlign.center,
-                        minFontSize: 12,
-                        maxLines: 3,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            width: 85,
+                            height: 85,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    20) // Adjust the radius as needed
+                                ),
+                            child: Image.asset(
+                              'asset/images/prayers.png',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const Spacer(),
+                          Expanded(
+                            flex: 10,
+                            child: AutoSizeText(
+                              'Προσευχές Αγίων & Γερόντων',
+                              style: TextStyle(fontSize: Global.fontSize),
+                              textAlign: TextAlign.center,
+                              minFontSize: Global.fontSize - 8,
+                              wrapWords: false,
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          const Spacer(),
+                        ],
                       ),
                     ),
                     ElevatedButton(
@@ -215,13 +265,37 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: AutoSizeText(
-                        'Σύντομες Προσευχές',
-                        style: TextStyle(fontSize: Global.fontSize),
-                        textAlign: TextAlign.center,
-                        minFontSize: 12,
-                        wrapWords: false,
-                        maxLines: 2,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            width: 85,
+                            height: 85,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    20) // Adjust the radius as needed
+                                ),
+                            child: Image.asset(
+                              'asset/images/short_prayers.png',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const Spacer(),
+                          Expanded(
+                            flex: 10,
+                            child: AutoSizeText(
+                              'Σύντομες Προσευχές',
+                              style: TextStyle(fontSize: Global.fontSize),
+                              textAlign: TextAlign.center,
+                              minFontSize: Global.fontSize - 8,
+                              wrapWords: false,
+                              maxLines: 2,
+                            ),
+                          ),
+                          const Spacer(),
+                        ],
                       ),
                     ),
                     ElevatedButton(
@@ -237,15 +311,37 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: AutoSizeText(
-                        'Ακολουθίες',
-                        style: TextStyle(
-                          fontSize: Global.fontSize,
-                        ),
-                        textAlign: TextAlign.center,
-                        minFontSize: 12,
-                        wrapWords: false,
-                        maxLines: 2,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            width: 85,
+                            height: 85,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    20) // Adjust the radius as needed
+                                ),
+                            child: Image.asset(
+                              'asset/images/akolouthies.png',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const Spacer(),
+                          Expanded(
+                            flex: 10,
+                            child: AutoSizeText(
+                              'Ακολουθίες',
+                              style: TextStyle(fontSize: Global.fontSize),
+                              textAlign: TextAlign.center,
+                              minFontSize: Global.fontSize - 8,
+                              wrapWords: false,
+                              maxLines: 2,
+                            ),
+                          ),
+                          const Spacer(),
+                        ],
                       ),
                     ),
                     ElevatedButton(
@@ -260,14 +356,37 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: AutoSizeText(
-                        'Ψαλμοί',
-                        style: TextStyle(
-                          fontSize: Global.fontSize,
-                        ),
-                        textAlign: TextAlign.center,
-                        minFontSize: 12,
-                        maxLines: 2,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            width: 85,
+                            height: 85,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    20) // Adjust the radius as needed
+                                ),
+                            child: Image.asset(
+                              'asset/images/psalms.png',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const Spacer(),
+                          Expanded(
+                            flex: 10,
+                            child: AutoSizeText(
+                              'Ψαλμοί',
+                              style: TextStyle(fontSize: Global.fontSize),
+                              textAlign: TextAlign.center,
+                              minFontSize: Global.fontSize - 8,
+                              wrapWords: false,
+                              maxLines: 2,
+                            ),
+                          ),
+                          const Spacer(),
+                        ],
                       ),
                     ),
                     ElevatedButton(
@@ -282,16 +401,37 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: AutoSizeText(
-                        'Ύμνοι',
-                        style: TextStyle(
-                          fontSize: Global.fontSize,
-                        ),
-                        textAlign: TextAlign.center,
-                        minFontSize: 12,
-                        maxLines: 2,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
+                            width: 85,
+                            height: 85,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(
+                                    20) // Adjust the radius as needed
+                                ),
+                            child: Image.asset(
+                              'asset/images/hymns.png',
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          const Spacer(),
+                          AutoSizeText(
+                            'Ύμνοι',
+                            style: TextStyle(fontSize: Global.fontSize),
+                            textAlign: TextAlign.center,
+                            minFontSize: Global.fontSize - 8,
+                            wrapWords: false,
+                            maxLines: 2,
+                          ),
+                          const Spacer(),
+                        ],
                       ),
                     ),
+                    const SizedBox(height: 1.0),
                   ],
                 ),
               ),
