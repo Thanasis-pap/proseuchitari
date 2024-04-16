@@ -70,7 +70,6 @@ class _Proseuches extends State<Proseuches> {
             MaterialPageRoute(
                 builder: (_) => SaintPrayer(saintprayerNumber: i - 1)));
     }
-    ;
   }
 
   @override
@@ -129,24 +128,36 @@ class _Proseuches extends State<Proseuches> {
         centerTitle: false,
       ),
       body: <Widget>[
-        Center(
-          // Center is a layout widget. It takes a single child and positions it
-          // in the middle of the parent.
-          child: CustomScrollView(
-            primary: false,
-            slivers: <Widget>[
-              SliverPadding(
-                padding: const EdgeInsets.all(14),
-                sliver: SliverGrid.count(
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
-                    crossAxisCount: 2,
-                    childAspectRatio: (30 / 20),
-                    children: _getList()),
+        Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(""),
+              fit: BoxFit.cover,
+              colorFilter: ColorFilter.mode(
+                Colors.white.withOpacity(0.8),
+                BlendMode.dstATop,
               ),
-            ],
+            ),
           ),
-        ),
+          child: Center(
+            // Center is a layout widget. It takes a single child and positions it
+            // in the middle of the parent.
+            child: CustomScrollView(
+              primary: false,
+              slivers: <Widget>[
+                SliverPadding(
+                  padding: const EdgeInsets.all(14),
+                  sliver: SliverGrid.count(
+                      crossAxisSpacing: 16,
+                      mainAxisSpacing: 16,
+                      crossAxisCount: 2,
+                      childAspectRatio: (30 / 20),
+                      children: _getList()),
+                ),
+              ],
+            ),
+          ),
+        )
       ][currentPageIndex],
       // This trailing comma makes auto-formatting nicer for build methods.
     );

@@ -1,4 +1,4 @@
-#Mon Apr 15 23:40:24 EEST 2024
+#Tue Apr 16 10:46:21 EEST 2024
 base.0=/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

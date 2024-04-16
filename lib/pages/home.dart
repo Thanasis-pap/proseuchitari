@@ -2,6 +2,7 @@ import 'package:proseuchitari/global_dirs.dart';
 import 'package:proseuchitari/pages/PrayersList/proseuches.dart';
 import 'package:calendar_timeline/calendar_timeline.dart';
 import 'package:proseuchitari/pages/searchpage.dart';
+import 'package:proseuchitari/pages/Widgets/widgets.dart';
 
 class MyHomePage extends StatefulWidget {
   static final ValueNotifier<ThemeMode> themeNotifier =
@@ -172,38 +173,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            width: 85,
-                            height: 85,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(
-                                    20) // Adjust the radius as needed
-                                ),
-                            child: Image.asset(
-                              'asset/images/basic_prayers.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          const Spacer(),
-                          Expanded(
-                            flex: 10,
-                            child: AutoSizeText(
-                              'Βασικές Προσευχές',
-                              style: TextStyle(fontSize: Global.fontSize),
-                              textAlign: TextAlign.center,
-                              minFontSize: Global.fontSize - 8,
-                              wrapWords: false,
-                              maxLines: 2,
-                            ),
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
+                      child: Widgets.PrayerButton('asset/images/basic_prayers.png', 'Βασικές Προσευχές')
                     ),
                     ElevatedButton(
                       onPressed: () {
@@ -218,39 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            width: 85,
-                            height: 85,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(
-                                    20) // Adjust the radius as needed
-                                ),
-                            child: Image.asset(
-                              'asset/images/prayers.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          const Spacer(),
-                          Expanded(
-                            flex: 10,
-                            child: AutoSizeText(
-                              'Προσευχές Αγίων & Γερόντων',
-                              style: TextStyle(fontSize: Global.fontSize),
-                              textAlign: TextAlign.center,
-                              minFontSize: Global.fontSize - 8,
-                              wrapWords: false,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
+                      child: Widgets.PrayerButton('asset/images/prayers.png', 'Προσευχές Αγίων & Γερόντων')
                     ),
                     ElevatedButton(
                       onPressed: () {
@@ -265,38 +203,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            width: 85,
-                            height: 85,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(
-                                    20) // Adjust the radius as needed
-                                ),
-                            child: Image.asset(
-                              'asset/images/short_prayers.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          const Spacer(),
-                          Expanded(
-                            flex: 10,
-                            child: AutoSizeText(
-                              'Σύντομες Προσευχές',
-                              style: TextStyle(fontSize: Global.fontSize),
-                              textAlign: TextAlign.center,
-                              minFontSize: Global.fontSize - 8,
-                              wrapWords: false,
-                              maxLines: 2,
-                            ),
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
+                      child: Widgets.PrayerButton('asset/images/short_prayers.png', 'Σύντομες Προσευχές')
                     ),
                     ElevatedButton(
                       onPressed: () {
@@ -311,38 +218,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            width: 85,
-                            height: 85,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(
-                                    20) // Adjust the radius as needed
-                                ),
-                            child: Image.asset(
-                              'asset/images/akolouthies.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          const Spacer(),
-                          Expanded(
-                            flex: 10,
-                            child: AutoSizeText(
-                              'Ακολουθίες',
-                              style: TextStyle(fontSize: Global.fontSize),
-                              textAlign: TextAlign.center,
-                              minFontSize: Global.fontSize - 8,
-                              wrapWords: false,
-                              maxLines: 2,
-                            ),
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
+                      child: Widgets.PrayerButton('asset/images/akolouthies.png', 'Ακολουθίες')
                     ),
                     ElevatedButton(
                       onPressed: () {
@@ -356,38 +232,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            width: 85,
-                            height: 85,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(
-                                    20) // Adjust the radius as needed
-                                ),
-                            child: Image.asset(
-                              'asset/images/psalms.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          const Spacer(),
-                          Expanded(
-                            flex: 10,
-                            child: AutoSizeText(
-                              'Ψαλμοί',
-                              style: TextStyle(fontSize: Global.fontSize),
-                              textAlign: TextAlign.center,
-                              minFontSize: Global.fontSize - 8,
-                              wrapWords: false,
-                              maxLines: 2,
-                            ),
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
+                      child: Widgets.PrayerButton('asset/images/psalms.png', 'Ψαλμοί')
                     ),
                     ElevatedButton(
                       onPressed: () {
@@ -401,35 +246,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                            width: 85,
-                            height: 85,
-                            clipBehavior: Clip.antiAlias,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(
-                                    20) // Adjust the radius as needed
-                                ),
-                            child: Image.asset(
-                              'asset/images/hymns.png',
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                          const Spacer(),
-                          AutoSizeText(
-                            'Ύμνοι',
-                            style: TextStyle(fontSize: Global.fontSize),
-                            textAlign: TextAlign.center,
-                            minFontSize: Global.fontSize - 8,
-                            wrapWords: false,
-                            maxLines: 2,
-                          ),
-                          const Spacer(),
-                        ],
-                      ),
+                      child: Widgets.PrayerButton('asset/images/hymns.png', 'Ύμνοι')
                     ),
                     const SizedBox(height: 1.0),
                   ],
