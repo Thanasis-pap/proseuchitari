@@ -4,6 +4,7 @@ export 'package:get/get.dart';
 export 'package:keep_screen_on/keep_screen_on.dart';
 export 'package:shared_preferences/shared_preferences.dart';
 
+export 'package:proseuchitari/pages/Widgets/title.dart';
 export 'package:proseuchitari/pages/PrayersList/prayernames.dart';
 export 'package:proseuchitari/pages/Prayers/shortprayer.dart';
 export 'package:proseuchitari/pages/Prayers/prayer.dart';
@@ -17,4 +18,5 @@ class Global {
   static double fontSize = 18;
   static bool screen = false;
   static bool click = false;
+  static List background = ['Βασικές Προσευχές','asset/images/basic_prayers.png'];
 }

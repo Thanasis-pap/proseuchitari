@@ -1,4 +1,4 @@
-#Tue Apr 16 00:01:15 EEST 2024
+#Tue Apr 16 15:57:25 EEST 2024
 base.0=/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

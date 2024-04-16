@@ -162,6 +162,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: <Widget>[
                     ElevatedButton(
                       onPressed: () {
+                        Global.background[0] = 'Βασικές Προσευχές';
+                        Global.background[1] = 'asset/images/basic_prayers.png';
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -177,6 +179,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     ElevatedButton(
                       onPressed: () {
+                        Global.background[0] = 'Προσευχές Αγίων & Γερόντων';
+                        Global.background[1] = 'asset/images/prayers.png';
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -192,6 +196,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     ElevatedButton(
                       onPressed: () {
+                        Global.background[0] = 'Σύντομες Προσευχές';
+                        Global.background[1] = 'asset/images/short_prayers.png';
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -207,6 +213,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     ElevatedButton(
                       onPressed: () {
+                        Global.background[0] = 'Ακολουθίες';
+                        Global.background[1] = 'asset/images/akolouthies.png';
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -222,6 +230,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     ElevatedButton(
                       onPressed: () {
+                        Global.background[0] = 'Ψαλμοί';
+                        Global.background[1] = 'asset/images/psalms.png';
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -236,6 +246,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     ElevatedButton(
                       onPressed: () {
+                        Global.background[0] = 'Ύμνοι';
+                        Global.background[1] = 'asset/images/hymns.png';
                         Navigator.push(
                             context,
                             MaterialPageRoute(
@@ -317,6 +329,9 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                const SizedBox(height: 20.0),
+                Heading.title(context, 'Γενικά'),
+                const SizedBox(height: 40.0),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

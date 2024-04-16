@@ -1,5 +1,4 @@
 import 'package:proseuchitari/global_dirs.dart';
-import 'package:calendar_timeline/calendar_timeline.dart';
 
 class Proseuches extends StatefulWidget {
   final List prayerNames;
@@ -12,7 +11,6 @@ class Proseuches extends StatefulWidget {
 
 class _Proseuches extends State<Proseuches> {
   int currentPageIndex = 0;
-  late DateTime _selectedDate;
   NavigationDestinationLabelBehavior labelBehavior =
       NavigationDestinationLabelBehavior.alwaysShow;
 
@@ -76,7 +74,6 @@ class _Proseuches extends State<Proseuches> {
   void initState() {
     super.initState();
     getDouble();
-    _resetSelectedDate();
   }
 
   List<Widget> _getList() {
@@ -109,10 +106,6 @@ class _Proseuches extends State<Proseuches> {
     return temp;
   }
 
-  void _resetSelectedDate() {
-    _selectedDate = DateTime.now();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -120,21 +113,21 @@ class _Proseuches extends State<Proseuches> {
         // TRY THIS: Try changing the color here to a specific color (to
         // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
         // change color while the other colors stay the same.
-        toolbarHeight: 75,
+        toolbarHeight: 100,
 
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: const Text('Προσευχητάρι', style: TextStyle(fontSize: 28)),
-        centerTitle: false,
+        title: Text(Global.background[0], style: TextStyle(fontSize: 28)),
+        centerTitle: true,
       ),
       body: <Widget>[
         Container(
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage(""),
-              fit: BoxFit.cover,
+              image: AssetImage(Global.background[1]),
+              fit: BoxFit.fitHeight,
               colorFilter: ColorFilter.mode(
-                Colors.white.withOpacity(0.8),
+                Colors.white.withOpacity(0.08),
                 BlendMode.dstATop,
               ),
             ),
