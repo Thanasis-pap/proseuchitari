@@ -1,6 +1,6 @@
 <dependencies>
   <compile
-      roots="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:shared_preferences_android::release,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:keep_screen_on::release,io.flutter:flutter_embedding_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,io.flutter:arm64_v8a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,io.flutter:x86_64_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation:1.2.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,androidx.tracing:tracing:1.0.0@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar">
+      roots="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:shared_preferences_android::release,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:keep_screen_on::release,io.flutter:flutter_embedding_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,io.flutter:arm64_v8a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,io.flutter:x86_64_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation:1.2.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar,androidx.tracing:tracing:1.0.0@aar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar">
     <dependency
         name="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
         simpleName="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar"/>
@@ -11,7 +11,7 @@
         name="/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:keep_screen_on::release"
         simpleName="dev.craftsoft.keep_screen_on:keep_screen_on"/>
     <dependency
-        name="io.flutter:flutter_embedding_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:flutter_embedding_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:flutter_embedding_release"/>
     <dependency
         name="androidx.window:window-java:1.0.0-beta04@aar"
@@ -29,13 +29,13 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk8"/>
     <dependency
-        name="io.flutter:armeabi_v7a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:armeabi_v7a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:armeabi_v7a_release"/>
     <dependency
-        name="io.flutter:arm64_v8a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:arm64_v8a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:arm64_v8a_release"/>
     <dependency
-        name="io.flutter:x86_64_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:x86_64_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:x86_64_release"/>
     <dependency
         name="androidx.lifecycle:lifecycle-common-java8:2.2.0@jar"
@@ -111,7 +111,7 @@
         simpleName="org.jetbrains:annotations"/>
   </compile>
   <package
-      roots="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:shared_preferences_android::release,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:keep_screen_on::release,io.flutter:flutter_embedding_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,io.flutter:arm64_v8a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,io.flutter:x86_64_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.tracing:tracing:1.0.0@aar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation:1.2.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar">
+      roots="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar:unspecified@jar,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:shared_preferences_android::release,/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:keep_screen_on::release,io.flutter:flutter_embedding_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,androidx.window:window-java:1.0.0-beta04@aar,androidx.window:window:1.0.0-beta04@aar,org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar,org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar,io.flutter:armeabi_v7a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,io.flutter:arm64_v8a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,io.flutter:x86_64_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar,org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar,org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar,androidx.lifecycle:lifecycle-common-java8:2.2.0@jar,androidx.fragment:fragment:1.1.0@aar,androidx.viewpager:viewpager:1.0.0@aar,androidx.loader:loader:1.0.0@aar,androidx.activity:activity:1.0.0@aar,androidx.customview:customview:1.0.0@aar,androidx.core:core:1.6.0@aar,androidx.core:core:1.6.0@aar,androidx.lifecycle:lifecycle-runtime:2.2.0@aar,androidx.savedstate:savedstate:1.0.0@aar,androidx.lifecycle:lifecycle-livedata:2.0.0@aar,androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar,androidx.lifecycle:lifecycle-common:2.2.0@jar,androidx.tracing:tracing:1.0.0@aar,androidx.arch.core:core-runtime:2.0.0@aar,androidx.arch.core:core-common:2.1.0@jar,androidx.versionedparcelable:versionedparcelable:1.1.1@aar,androidx.collection:collection:1.1.0@jar,androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar,androidx.annotation:annotation:1.2.0@jar,org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar,org.jetbrains:annotations:13.0@jar,androidx.annotation:annotation-experimental:1.1.0@aar">
     <dependency
         name="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
         simpleName="__local_aars__:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/flutter/release/libs.jar"/>
@@ -122,7 +122,7 @@
         name="/home/thanasis/AndroidStudioProjects/proseuchitari/android@@:keep_screen_on::release"
         simpleName="dev.craftsoft.keep_screen_on:keep_screen_on"/>
     <dependency
-        name="io.flutter:flutter_embedding_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:flutter_embedding_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:flutter_embedding_release"/>
     <dependency
         name="androidx.window:window-java:1.0.0-beta04@aar"
@@ -140,13 +140,13 @@
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10@jar"
         simpleName="org.jetbrains.kotlin:kotlin-stdlib-jdk8"/>
     <dependency
-        name="io.flutter:armeabi_v7a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:armeabi_v7a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:armeabi_v7a_release"/>
     <dependency
-        name="io.flutter:arm64_v8a_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:arm64_v8a_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:arm64_v8a_release"/>
     <dependency
-        name="io.flutter:x86_64_release:1.0.0-54a7145303f0dd9d0f93424a2e124eb4abef5091@jar"
+        name="io.flutter:x86_64_release:1.0.0-e76c956498841e1ab458577d3892003e553e4f3c@jar"
         simpleName="io.flutter:x86_64_release"/>
     <dependency
         name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.10@jar"

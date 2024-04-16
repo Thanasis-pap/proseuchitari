@@ -229,6 +229,23 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Widgets.PrayerButton('asset/images/akolouthies.png', 'Ακολουθίες')
                     ),
                     ElevatedButton(
+                        onPressed: () {
+                          Global.background[0] = 'Μεγάλη Εβδομάδα';
+                          Global.background[1] = 'asset/images/resurrection.png';
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (_) =>
+                                      Proseuches(Names.hollyweekNames)));
+                        },
+                        style: ElevatedButton.styleFrom(
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30.0),
+                          ),
+                        ),
+                        child: Widgets.PrayerButton('asset/images/resurrection.png', 'Μεγάλη Εβδομάδα')
+                    ),
+                    ElevatedButton(
                       onPressed: () {
                         Global.background[0] = 'Ψαλμοί';
                         Global.background[1] = 'asset/images/psalms.png';

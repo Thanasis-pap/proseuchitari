@@ -1,4 +1,5 @@
 import 'package:proseuchitari/global_dirs.dart';
+import 'package:proseuchitari/pages/Prayers/holyweek.dart';
 
 class Proseuches extends StatefulWidget {
   final List prayerNames;
@@ -67,6 +68,11 @@ class _Proseuches extends State<Proseuches> {
             context,
             MaterialPageRoute(
                 builder: (_) => SaintPrayer(saintprayerNumber: i - 1)));
+      case 6:
+        Navigator.push(
+            context,
+            MaterialPageRoute(
+                builder: (_) => Holyweek(holyweekNumber: i - 1)));
     }
   }
 
