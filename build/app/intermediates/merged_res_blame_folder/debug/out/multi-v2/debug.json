@@ -488,7 +488,7 @@
                     }
                 },
                 {
-                    "source": "/home/thanasis/AndroidStudioProjects/proseuchitari/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/thanasis/proseuchitari/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -921,7 +921,7 @@
             "outputFile": "com.example.proseuchitari.app-merged_res-11:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/home/thanasis/AndroidStudioProjects/proseuchitari/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/thanasis/proseuchitari/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
