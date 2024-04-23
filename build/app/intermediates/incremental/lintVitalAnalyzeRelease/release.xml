@@ -4,9 +4,9 @@
     minSdkVersion="19"
     targetSdkVersion="33"
     shrinking="true"
-    mergedManifest="/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/thanasis/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
-    partialResultsDir="/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/lint_vital_partial_results/release/out"
+    mergedManifest="/home/thanasis/proseuchitari/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/home/thanasis/proseuchitari/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/thanasis/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/home/thanasis/proseuchitari/build/app/intermediates/lint_vital_partial_results/release/out"
     desugaredMethodsFiles="/home/thanasis/.gradle/caches/transforms-3/bd65921de16db1d78bd37241e498ab28/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
@@ -32,9 +32,9 @@
         value="android.app.Application" />
   </manifestPlaceholders>
   <mainArtifact
-      classOutputs="/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/javac/release/classes:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/tmp/kotlin-classes/release:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/kotlinToolingMetadata:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      classOutputs="/home/thanasis/proseuchitari/build/app/intermediates/javac/release/classes:/home/thanasis/proseuchitari/build/app/tmp/kotlin-classes/release:/home/thanasis/proseuchitari/build/app/kotlinToolingMetadata:/home/thanasis/proseuchitari/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
       applicationId="com.example.proseuchitari"
-      generatedSourceFolders="/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/generated/ap_generated_sources/release/out:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/generated/aidl_source_output_dir/release/out:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/generated/source/buildConfig/release:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/generated/renderscript_source_output_dir/release/out"
-      generatedResourceFolders="/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/generated/res/rs/release:/home/thanasis/AndroidStudioProjects/proseuchitari/build/app/generated/res/resValues/release">
+      generatedSourceFolders="/home/thanasis/proseuchitari/build/app/generated/ap_generated_sources/release/out:/home/thanasis/proseuchitari/build/app/generated/aidl_source_output_dir/release/out:/home/thanasis/proseuchitari/build/app/generated/source/buildConfig/release:/home/thanasis/proseuchitari/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/home/thanasis/proseuchitari/build/app/generated/res/rs/release:/home/thanasis/proseuchitari/build/app/generated/res/resValues/release">
   </mainArtifact>
 </variant>
