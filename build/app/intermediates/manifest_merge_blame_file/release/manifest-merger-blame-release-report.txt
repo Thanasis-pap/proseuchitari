@@ -18,7 +18,7 @@
 14        android:name="android.app.Application"
 14-->/home/thanasis/proseuchitari/android/app/src/main/AndroidManifest.xml:4:9-42
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.6.0] /home/thanasis/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.6.0] /home/thanasis/.gradle/caches/transforms-3/94c63409d10cfdb91a1941c8a4ff2ce7/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 16        android:icon="@mipmap/ic_launcher"
 16-->/home/thanasis/proseuchitari/android/app/src/main/AndroidManifest.xml:5:9-43
 17        android:label="Προσευχητάρι" >
@@ -76,17 +76,17 @@
 49-->/home/thanasis/proseuchitari/android/app/src/main/AndroidManifest.xml:31:13-30
 50
 51        <uses-library
-51-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+51-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 52            android:name="androidx.window.extensions"
-52-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+52-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 53            android:required="false" />
-53-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+53-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 54        <uses-library
-54-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+54-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 55            android:name="androidx.window.sidecar"
-55-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+55-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 56            android:required="false" />
-56-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+56-->[androidx.window:window:1.0.0-beta04] /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 57    </application>
 58
 59</manifest>

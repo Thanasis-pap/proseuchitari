@@ -1,4 +1,4 @@
-#Tue Apr 23 16:14:54 EEST 2024
+#Tue Apr 23 19:50:37 EEST 2024
 base.0=/home/thanasis/proseuchitari/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

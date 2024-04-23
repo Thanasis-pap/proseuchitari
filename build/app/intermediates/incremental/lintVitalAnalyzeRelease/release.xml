@@ -5,9 +5,9 @@
     targetSdkVersion="33"
     shrinking="true"
     mergedManifest="/home/thanasis/proseuchitari/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
-    proguardFiles="/home/thanasis/proseuchitari/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/thanasis/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    proguardFiles="/home/thanasis/proseuchitari/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.1:/home/thanasis/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
     partialResultsDir="/home/thanasis/proseuchitari/build/app/intermediates/lint_vital_partial_results/release/out"
-    desugaredMethodsFiles="/home/thanasis/.gradle/caches/transforms-3/bd65921de16db1d78bd37241e498ab28/transformed/D8BackportedDesugaredMethods.txt">
+    desugaredMethodsFiles="/home/thanasis/.gradle/caches/transforms-3/5669e664f297fa1719f0cd940f7d16a2/transformed/D8BackportedDesugaredMethods.txt">
   <buildFeatures
       namespacing="REQUIRED"/>
   <sourceProviders>

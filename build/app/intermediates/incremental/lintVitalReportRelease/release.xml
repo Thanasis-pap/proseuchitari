@@ -6,7 +6,7 @@
     shrinking="true"
     mergedManifest="/home/thanasis/proseuchitari/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
     manifestMergeReport="/home/thanasis/proseuchitari/build/app/outputs/logs/manifest-merger-release-report.txt"
-    proguardFiles="/home/thanasis/proseuchitari/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/home/thanasis/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    proguardFiles="/home/thanasis/proseuchitari/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.1:/home/thanasis/snap/flutter/common/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
     partialResultsDir="/home/thanasis/proseuchitari/build/app/intermediates/lint_vital_partial_results/release/out">
   <buildFeatures
       namespacing="REQUIRED"/>

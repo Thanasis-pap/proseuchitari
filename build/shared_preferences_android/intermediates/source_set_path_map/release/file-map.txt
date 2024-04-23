@@ -1,7 +1,7 @@
-io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-1.0.0-beta04-0 /home/thanasis/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
-io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-annotation-experimental-1.1.0-1 /home/thanasis/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
-io.flutter.plugins.sharedpreferences.shared_preferences_android-core-1.6.0-2 /home/thanasis/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
-io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-java-1.0.0-beta04-3 /home/thanasis/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-1.0.0-beta04-0 /home/thanasis/.gradle/caches/transforms-3/4cf1c7d7d6fe51103fbdf2dd8932d054/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-core-1.6.0-1 /home/thanasis/.gradle/caches/transforms-3/94c63409d10cfdb91a1941c8a4ff2ce7/transformed/core-1.6.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-annotation-experimental-1.1.0-2 /home/thanasis/.gradle/caches/transforms-3/f253b75d1b45e689b8a235fb5ca77d7b/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.sharedpreferences.shared_preferences_android-jetified-window-java-1.0.0-beta04-3 /home/thanasis/.gradle/caches/transforms-3/f805250253ee398916dd0d383730fd64/transformed/jetified-window-java-1.0.0-beta04/res
 io.flutter.plugins.sharedpreferences.shared_preferences_android-main-4 /home/thanasis/.pub-cache/hosted/pub.dev/shared_preferences_android-2.2.2/android/src/main/res
 io.flutter.plugins.sharedpreferences.shared_preferences_android-release-5 /home/thanasis/.pub-cache/hosted/pub.dev/shared_preferences_android-2.2.2/android/src/release/res
 io.flutter.plugins.sharedpreferences.shared_preferences_android-pngs-6 /home/thanasis/proseuchitari/build/shared_preferences_android/generated/res/pngs/release

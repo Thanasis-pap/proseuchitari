@@ -66,7 +66,11 @@ class _MyHomePageState extends State<MyHomePage> {
     super.initState();
     _resetSelectedDate();
     getDouble();
-    setBool(Global.screen);
+    if (Global.screen == true) {
+      KeepScreenOn.turnOn();
+    } else {
+      KeepScreenOn.turnOff();
+    }
   }
 
   void _resetSelectedDate() {

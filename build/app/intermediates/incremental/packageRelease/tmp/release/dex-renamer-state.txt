@@ -1,4 +1,4 @@
-#Tue Apr 23 18:47:55 EEST 2024
+#Tue Apr 23 19:56:48 EEST 2024
 base.0=/home/thanasis/proseuchitari/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
